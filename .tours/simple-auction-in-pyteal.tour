@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Simple Auction in PyTeal",
+  "steps": [
+    {
+      "title": "Intro",
+      "description": "## Welcome to the \"Simple Auction in PyTeal\" code tour! 🚀 🎉\n\nThis tour will guide you through code snippets, show you how to start a test environment, and test your smart contract code! 🤩 🌱\n\n**I hope you have fun!** 😀"
+    },
+    {
+      "title": "Sandbox",
+      "description": "## Starting the Algorand Sandbox\n\nThe sandbox is a project to start a controlled env for development and testing purposes. It's not intended to be used in production.\n\nStart the sandbox by typing the following command on the terminal:\n\n>> cd ../sandbox && ./sandbox up\n\n(or, click on the command above to execute)\n\nWait 5 minutes until the sandbox is fully initialized. 🤔 🫣"
+    },
+    {
+      "file": "example.py",
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 2,
+          "character": 1
+        }
+      },
+      "description": "# Getting into the code...\n\nThis is the `example.py` file where the whole auction steps are described.\n\nWe use the [algosdk](https://py-algorand-sdk.readthedocs.io/en/latest/), which is a python library for interacting with the Algorand network.\n\n",
+      "line": 1
+    },
+    {
+      "file": "example.py",
+      "selection": {
+        "start": {
+          "line": 19,
+          "character": 1
+        },
+        "end": {
+          "line": 19,
+          "character": 22
+        }
+      },
+      "description": "# The most important method\n\nThis method is the one defining all the auction steps...\n\n...\n\n...\n\n..."
+    },
+    {
+      "file": "example.py",
+      "selection": {
+        "start": {
+          "line": 81,
+          "character": 1
+        },
+        "end": {
+          "line": 87,
+          "character": 77
+        }
+      },
+      "description": "# First bid\n\nThis code snippet shows the first bid made by Carla.\n\n...\n\n...\n\n...\n\nThis is just an example."
+    },
+    {
+      "file": "example.py",
+      "selection": {
+        "start": {
+          "line": 122,
+          "character": 1
+        },
+        "end": {
+          "line": 122,
+          "character": 17
+        }
+      },
+      "description": "# Yay! Time to execute!\n\nOk, now it's time where we should execute the whole script to check if it can be executed in the Algorand private network (within sandbox).\n\nExecute the following command on your terminal:\n\n>> . venv/bin/activate && python3 example.py\n\n(or click on the command above to execute)\n\n🤩 💚"
+    }
+  ]
+}
