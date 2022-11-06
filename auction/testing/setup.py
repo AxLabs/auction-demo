@@ -1,3 +1,4 @@
+import os
 from typing import Optional, List
 
 from algosdk.v2client.algod import AlgodClient
@@ -5,15 +6,16 @@ from algosdk.kmd import KMDClient
 
 from ..account import Account
 
-ALGOD_ADDRESS = "http://localhost:4001"
+algodHost = os.getenv('ALGOD_HOST', 'localhost')
+ALGOD_ADDRESS = "http://{}:4001".format(algodHost)
 ALGOD_TOKEN = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 
 
 def getAlgodClient() -> AlgodClient:
     return AlgodClient(ALGOD_TOKEN, ALGOD_ADDRESS)
 
-
-KMD_ADDRESS = "http://localhost:4002"
+kmdHost = os.getenv('KMD_HOST', 'localhost')
+KMD_ADDRESS = "http://{}:4002".format(kmdHost)
 KMD_TOKEN = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 
 
