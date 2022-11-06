@@ -65,7 +65,7 @@
           "character": 17
         }
       },
-      "description": "# Yay! Time to execute!\n\nOk, now it's time where we should execute the whole script to check if it can be executed in the Algorand private network (within sandbox).\n\nExecute the following command on your terminal:\n\n>> . venv/bin/activate && python3 example.py\n\n(or click on the command above to execute)\n\n🤩 💚"
+      "description": "# Yay! Time to execute!\n\nOk, now it's time where we should execute the whole script to check if it can be executed in the Algorand private network (within sandbox).\n\nExecute the following command on your terminal:\n\n>> cd ~/workspace && . venv/bin/activate && python3 example.py\n\n(or click on the command above to execute)\n\n🤩 💚"
     }
   ]
 }
